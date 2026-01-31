@@ -68,7 +68,7 @@ sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser
 sudo zypper install brave-browser
 ```
 
-# Install Warp Client
+# Install Warp Client (not an openSUSE package)
 ```
 # Add cloudflare-warp.repo
 sudo zypper addrepo https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo
