@@ -58,5 +58,5 @@ installRecommends = no
 # Install Packages
 
 ```
-sudo zypper in git
+sudo zypper in git systemd-zram-service hyprland ghostty
 ```
