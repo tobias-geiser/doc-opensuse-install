@@ -62,10 +62,21 @@ sudo zypper in git systemd-zram-service hyprland ghostty thunar nushell fzf chro
 ```
 
 
-# Install Brave
+# Install Brave Browser
 ```
 sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 sudo zypper install brave-browser
 ```
 
+# Install Warp Client
+```
+# Add cloudflare-warp.repo
+sudo zypper addrepo https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo
+
+# Update repo
+sudo zypper ref
+
+# Install
+sudo zypper in cloudflare-warp
+```
 
