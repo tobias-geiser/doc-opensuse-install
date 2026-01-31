@@ -6,6 +6,31 @@
 # Full Disk Encryption
 
 # Install Rescue System
+To install a rescue system on the disk we will copy the initrd and linux kernel from the installation media.
+
+```
+sudo mount /dev/vda1 /boot/efi/
+sudo mkdir /boot/efi/opensuse-rescue
+
+sudo mount -o loop /path/to/your-file.iso /mnt
+
+sudo cp /mnt/boot/x86_64/loader/initrd /boot/efi/opensuse-rescue
+sudo cp /mnt/boot/x86_64/loader/linux /boot/efi/opensuse-rescue
+
+sudo umount /mnt
+```
+
+create a new loader entry in /boot/efi/loader/entries/
+e.g opensuse-rescue.conf
+```
+# Boot Loader Specification type#1 entry
+title      openSUSE Tumbleweed Rescue
+sort-key   rescue
+options    splash=silent quiet rescue=1 showopts
+linux      /opensuse-rescue/linux
+initrd     /opensuse-rescue/initrd
+```
+
 
 # Configure Zypper
 
