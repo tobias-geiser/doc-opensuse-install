@@ -111,3 +111,8 @@ sudo systemctl set-default graphical.target
 ```
 sudo zypper install -t pattern kvm_server kvm_tools
 ```
+
+# Install docker
+```
+sudo zypper in docker docker-buildx
+```
