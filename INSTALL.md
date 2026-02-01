@@ -61,6 +61,10 @@ installRecommends = no
 sudo zypper in git systemd-zram-service hyprland ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet
 ```
 
+# Install Optional Packages
+```
+sudo zypper in wallpaper-branding-openSUSE
+```
 
 # Install Brave Browser
 ```
@@ -80,3 +84,7 @@ sudo zypper ref
 sudo zypper in cloudflare-warp
 ```
 
+# Set default graphical target
+
+
+sudo systemctl set-default graphical.target
