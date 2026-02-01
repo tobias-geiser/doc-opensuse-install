@@ -72,6 +72,22 @@ sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser
 sudo zypper install brave-browser
 ```
 
+# Install AI Tools
+```
+sudo zypper in npm24
+
+# install Codex
+sudo npm install -g @openai/codex
+
+# intall github copilot
+sudo npm install -g @github/copilot
+
+# install google gemini
+sudo npm install  -g @google/gemini-cli
+
+```
+
+
 # Install Warp Client (not an openSUSE package)
 ```
 # Add cloudflare-warp.repo
@@ -86,5 +102,6 @@ sudo zypper in cloudflare-warp
 
 # Set default graphical target
 
-
+```
 sudo systemctl set-default graphical.target
+```
