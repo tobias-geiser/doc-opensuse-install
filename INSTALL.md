@@ -105,3 +105,9 @@ sudo zypper in cloudflare-warp
 ```
 sudo systemctl set-default graphical.target
 ```
+
+
+# Install KVM
+```
+sudo zypper install -t pattern kvm_server kvm_tools
+```
