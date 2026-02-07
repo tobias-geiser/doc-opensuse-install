@@ -107,6 +107,10 @@ sudo npm install  -g @google/gemini-cli
 
 ```
 
+# Install Oh-My-Posh
+```
+curl -s https://ohmyposh.dev/install.sh | bash -s
+```
 
 # Install Warp Client (not an openSUSE package)
 ```
