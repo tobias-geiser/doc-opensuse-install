@@ -58,7 +58,7 @@ installRecommends = no
 # Install Packages
 
 ```
-sudo zypper in git systemd-zram-service hyprland ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet
+sudo zypper in git systemd-zram-service hyprland hyprland-qtutils ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet
 ```
 
 # Install Optional Packages
