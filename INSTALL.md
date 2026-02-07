@@ -86,6 +86,12 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 sudo zypper install code
 ```
 
+# Install SoftMaker Office NX
+```
+sudo zypper install -y curl
+curl -fsSL https://softmaker.net/down/install-softmaker-office-nx.sh | sudo bash
+```
+
 # Install AI Tools
 ```
 sudo zypper in npm24
