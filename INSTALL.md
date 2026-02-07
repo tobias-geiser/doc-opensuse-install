@@ -59,12 +59,18 @@ installRecommends = no
 
 ```
 sudo zypper in git systemd-zram-service hyprland hyprland-qtutils hyprcursor ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet gtk3-metatheme-adwaita  adwaita-qt6 adwaita-qt5 gtk2-metatheme-adwaita
+
+sudo zypper addrepo https://download.opensuse.org/repositories/home:team-vrock:releases/openSUSE_Tumbleweed/home:team-vrock:releases.repo
+sudo zypper ref
+sudo zypper install eww-bridge
+
 ```
 
 # Install Optional Packages
 ```
 sudo zypper in wallpaper-branding-openSUSE
 ```
+
 
 # Install Brave Browser
 ```
