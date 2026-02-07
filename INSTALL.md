@@ -116,3 +116,8 @@ sudo zypper install -t pattern kvm_server kvm_tools
 ```
 sudo zypper in docker docker-buildx
 ```
+# Theme
+```
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+```
