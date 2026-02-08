@@ -58,7 +58,7 @@ installRecommends = no
 # Install Packages
 
 ```
-sudo zypper in btop git systemd-zram-service hyprland hyprland-qtutils hyprcursor ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet gtk3-metatheme-adwaita  adwaita-qt6 adwaita-qt5 gtk2-metatheme-adwaita sensors pipewire playerctl brightnessctl bluez upower fastfetch ImageMagick snapper-backup hyprshot rclone gvfs gvfs-backend-samba
+sudo zypper in btop git systemd-zram-service hyprland hyprland-qtutils hyprcursor ghostty thunar nushell fzf chromium hyprpaper hypridle hyprlock ca-certificates-cacert greetd regreet gtk3-metatheme-adwaita  adwaita-qt6 adwaita-qt5 gtk2-metatheme-adwaita sensors pipewire playerctl brightnessctl bluez upower fastfetch ImageMagick snapper-backup hyprshot rclone gvfs gvfs-backend-samba fprintd fprintd-pam
 
 sudo zypper addrepo https://download.opensuse.org/repositories/home:team-vrock:releases/openSUSE_Tumbleweed/home:team-vrock:releases.repo
 sudo zypper ref
