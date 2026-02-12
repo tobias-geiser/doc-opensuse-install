@@ -145,3 +145,9 @@ sudo zypper in docker docker-buildx
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
+
+
+# Trusted Certificates?
+```
+sudo zypper in p11-kit-nss-trust
+```
